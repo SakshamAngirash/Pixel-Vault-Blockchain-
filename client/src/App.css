@@ -1,0 +1,209 @@
+.share-button {
+  background-color: #ffea2b; /* Green background */
+  border: none; /* Remove button border */
+  border-radius: 10px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0); /* Text color */
+  padding: 12px; /* Padding */
+  text-align: center; /* Center text horizontally */
+  text-decoration: none; /* Remove underline */
+  display: inline-flex; /* Display as inline element */
+  font-size: 16px; /* Font size */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Add cursor on hover */
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.share-button:hover {
+  background-color: #ffffff; /* Darker green on hover */
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #373e98;
+  padding: 20px 20px;
+  border-radius: 7px;
+  margin-bottom: 2px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Add flex-grow to expand the element */
+}
+
+.nav-left a {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #313131;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center; /* Add text-align to center the heading */
+  margin: 0; /* Remove default margin */
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.nav-right a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 20px;
+}
+.lbutton {
+  align-items: left;
+  text-align: left;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.App {
+  text-align: center;
+  background-color: #f0e8e8;
+  padding: 5px;
+  background-image: url("PIXEL.png");
+  background-size: 1700px;
+  height: 1000px;
+  border-radius: 10px;
+}
+.desc {
+  border: solid black;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 20px;
+  background-color: #fff;
+}
+.acc {
+  color: #ffffff;
+  margin-top: 15px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #0077be;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #f68a00;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+.content {
+  background-color: rgba(4, 0, 0, 0.8);
+  border-radius: 0.25em;
+  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  left: 50%;
+  padding: 10vmin;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: monospace;
+  color: #f68a00;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+* {
+  padding: 1px;
+  margin: 0;
+  box-sizing: unset;
+}
+
+body {
+  height: 900px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
+  background-color: #0077be;
+}
+
+header .overlay {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
+  background-color: #f68a00;
+}
